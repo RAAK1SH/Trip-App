@@ -1,6 +1,6 @@
 import React from "react";
-import BlogsComp from "../components/Blogs/BlogsComp";
 import Location from "../components/Location/Location";
+import Team from "../components/Team/Team";
 
 const About = () => {
   return (
@@ -79,9 +79,9 @@ const About = () => {
             `}</style>
             </div>
         </div>
+        <Team />
       </div>
       <Location />
-      <BlogsComp />
     </>
   );
 };
